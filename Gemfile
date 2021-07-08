@@ -35,7 +35,7 @@ gem 'bootsnap'
 group :development, :test do
 
   gem 'rspec-rails', '~> 3.0'
-  gem 'capybara'
+  gem 'capybara', '>= 3.14.0'
   gem 'database_cleaner'
   gem 'annotate'
 end
